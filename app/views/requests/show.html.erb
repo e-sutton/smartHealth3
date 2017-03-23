@@ -1,0 +1,13 @@
+<h1>Request for <%= @patient.firstname %>  <%= @patient.lastname %></h1>
+<p>
+<b>Request details:</b>
+</br>
+<%= @request.request %>
+</br>
+<% @request.comments %>
+</br>
+<% @request.date %>
+</p>
+<%= link_to 'Edit', edit_patient_request_path(@patient, @request) %> |
+<%= link_to 'Back', patient_requests_path(@patient) %>
+
