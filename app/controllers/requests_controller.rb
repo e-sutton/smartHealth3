@@ -1,4 +1,5 @@
 class RequestsController < ApplicationController
+  before_filter :authenticate_user!
   def index
   #get patient records according to their id
   @patient = Patient.find(params[:patient_id])

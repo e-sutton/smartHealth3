@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  resources :profiles
+  devise_for :users
+  root:to => 'home#index'
+  get 'home/index'
+  get 'signedinuserprofile' => 'profiles#signedinuserprofile'
+
+  devise_for :installs
   get 'requests/index'
 
   get 'requests/show'
