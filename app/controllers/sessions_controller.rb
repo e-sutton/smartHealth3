@@ -3,3 +3,4 @@ class SessionsController < Devise::SessionsController
 def after_sign_in_path_for(user) "/signedinuserprofile" #here we provide
 #the path for the user's profile end 
 end
+end
