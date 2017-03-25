@@ -12,7 +12,7 @@ class RequestsController < ApplicationController
   if !@patient.present?
    render plain: 'No Patient'
   end 
-  @request = @patient.requests.find(params[:id])
+  @request = @patient.requests.find(1)
   if !@request.present?
    render plain: 'No Request'
   end 
