@@ -9,7 +9,14 @@ class RequestsController < ApplicationController
 
   def show
   @patient = Patient.find(params[:patient_id])
+  if !@patient.present?
+   render plain: 'No Patient'
+  end 
   @request = @patient.requests.find(params[:id])
+  if !@request.present?
+   render plain: 'No Request'
+  end 
+  puts @request
   end
 
   def new
