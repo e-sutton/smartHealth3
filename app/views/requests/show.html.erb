@@ -8,6 +8,6 @@
 </br>
 <% @request.date %>
 </p>
-<%= link_to 'Edit', edit_patient_request_path(@patient, @request) %> |
-<%= link_to 'Back', patient_requests_path(@patient) %>
+<%= link_to 'Edit', edit_patient_request_path(@patient, @request), class: "btn btn-default" %> |
+<%= link_to 'Back', patient_requests_path(@patient), class: "btn btn-default" %>
 

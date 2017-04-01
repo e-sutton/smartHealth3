@@ -6,6 +6,13 @@ class PatientsController < ApplicationController
   # GET /patients.json
   def index
     @patients = Patient.all
+    
+    if params[:search]
+    @patients = Patient.search(params[:search])
+    @patients = @patients.order("lastname ASC")
+    else
+    @patients = @patients.order("lastname DESC")
+    end
   end
 
   # GET /patients/1

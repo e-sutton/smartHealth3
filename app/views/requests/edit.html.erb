@@ -1,4 +1,35 @@
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">SmartHealth</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><%= link_to 'Patients', patients_path %></li>
+            <li><%= link_to 'Profile', '/profiles' %></li>
+	     <li><%= link_to 'Prescriptions', prescriptions_path %></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+
+
+      <div class="starter-template">
+
 <h1>Editing request</h1>
 <%= render 'form' %>
-<%= link_to 'Show', patient_request_path(@patient, @request) %> |
-<%= link_to 'Back', patient_requests_path(@patient) %>
+<%= link_to 'Show', patient_request_path(@patient, @request), class: "btn btn-default" %> |
+<%= link_to 'Back', patient_requests_path(@patient), class: "btn btn-default" %>
+</div>
+</div>
+</body>

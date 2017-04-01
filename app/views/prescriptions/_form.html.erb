@@ -1,0 +1,70 @@
+<%= form_for(prescription) do |f| %>
+  <% if prescription.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(prescription.errors.count, "error") %> prohibited this prescription from being saved:</h2>
+
+      <ul>
+      <% prescription.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :firstname %>
+    <%= f.text_field :firstname %>
+  </div>
+
+  <div class="field">
+    <%= f.label :lastname %>
+    <%= f.text_field :lastname %>
+  </div>
+
+  <div class="field">
+    <%= f.label :cost %>
+    <%= f.text_field :cost %>
+  </div>
+
+  <div class="field">
+    <%= f.label :doctorname %>
+    <%= f.text_field :doctorname %>
+  </div>
+
+  <div class="field">
+    <%= f.label :medicine %>
+    <%= f.text_field :medicine %>
+  </div>
+
+  <div class="field">
+    <%= f.label :dose %>
+    <%= f.text_field :dose %>
+  </div>
+
+  <div class="field">
+    <%= f.label :description %>
+    <%= f.text_field :description %>
+  </div>
+
+  <div class="field">
+    <%= f.label :patient_id %>
+    <%= f.text_field :patient_id %>
+  </div>
+
+<div class="field">Paracetamol: 
+<%= check_box_tag 'prescription[paracetamol]', 'paracetamol' %> 
+</div> 
+
+<div class="field"> Ibuprofen: 
+<%= check_box_tag 'prescription[ibuprofen]', 'ibuprofen' %> 
+</div> 
+
+<div class="field"> Augmentin: 
+<%= check_box_tag 'prescription[augmentin]', 'augmentin' %> 
+</div> 
+
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
