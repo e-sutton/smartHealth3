@@ -4,7 +4,10 @@ class RequestsController < ApplicationController
   #get patient records according to their id
   @patient = Patient.find(params[:patient_id])
   #get all patient requests for that patient
-  @requests = @patient.requests
+  @request = @patient.requests
+    if !@request.present?
+   render plain: 'No Request'
+  end 
   end
 
   def show
