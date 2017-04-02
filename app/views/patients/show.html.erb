@@ -77,12 +77,29 @@ ID: <%=@patient.id %>
 <%= request.comments %>
 </br>
 <%= request.date %>
+</br>
+<%= request.created_at %>
+</p>
+<% end %>
+
+<!--display the requests for this patient -->
+<h2>Prescriptions</h2>
+<% @patient.prescriptions.each do |pres| %>
+<p>
+<b>Prescription details:</b>
+</br>
+<%= pres.medicine %>
+</br>
+<%= pres.dose %>
+</br>
+<%= pres.created_at %>
 </p>
 <% end %>
 
 <%= link_to 'Edit Patient', edit_patient_path(@patient), class: "btn btn-default" %> |
 <%= link_to 'Back', patients_path, class: "btn btn-default"  %> |
-<%= link_to 'Show Requests', patient_requests_path(@patient), class: "btn btn-default"  %>
+<%= link_to 'Show Requests', patient_requests_path(@patient), class: "btn btn-default"  %> |
+<%= link_to 'Show Prescriptions', prescriptions_path, class: "btn btn-default" %>
 
 </div>
 </div>

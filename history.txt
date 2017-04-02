@@ -1,0 +1,885 @@
+    1  sudo apt-get autoremove open-vm-tools
+    2  pwd
+    3  cd desktop
+    4  ls -l
+    5  cd Desktop/Untitled\ Folder
+    6  ls -l
+    7  sh run_upgrader.sh 
+    8  ./run_upgrader.sh
+    9  chmod 777 run_upgrader.sh 
+   10  ./run_upgrader.sh
+   11  chmod 777 *
+   12  ./run_upgrader.sh
+   13  cd vmware-tools-distrib/
+   14  ls -l
+   15  perl vmware-install.pl
+   16  sudo perl vmware-install.pl
+   17  sudo apt-get install open-vm-tools-desktop
+   18  ls -l
+   19  cd /
+   20  ls -l
+   21  gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+   22  \curl -L https://get.rvm.io | bash -s stable --ruby
+   23  sudo apt install curl
+   24  \curl -L https://get.rvm.io | bash -s stable --ruby
+   25  source /home/user/.rvm/scripts/rvm
+   26  source /home/eoin/.rvm/scripts/rvm
+   27  rvm
+   28  rvm get stable --autolibs=enable
+   29  rvm install ruby
+   30  rvm --default use ruby-2.4.0
+   31  sudo apt-get install nodejs
+   32  gem --v
+   33  gem -v
+   34  rvm gemset list
+   35  rvm gemset use global
+   36  gem list
+   37  gem install bundler
+   38  gem install nokogiri
+   39  rvm use ruby-2.4.0@rails4.2.1 --create
+   40  gem install rails --no-ri --no-rdoc
+   41  rails -v
+   42  mkdir workspace
+   43  sudo mkdir workspace
+   44  cd workspace/
+   45  rails new myapp
+   46  chmod 777 *
+   47  chmod 777 workspace
+   48  chmod 777 workspace/
+   49  chmod 777 /workspace
+   50  sudo chmod 777 /workspace
+   51  ls -l
+   52  rails new myapp
+   53  rails s
+   54  rails s -b 0.0.0.0
+   55  rails new generate scaffold registration firstname:string lastname email:string age:decimal
+   56  rake db:migrate
+   57  ls -l
+   58  cd myapp/
+   59  ls -l
+   60  rake db:migrate
+   61  ls -l
+   62  cd db
+   63  ls -l
+   64  sqlite3 development.sqlite3
+   65  cd /workspace/
+   66  cd myapp/
+   67  rails server
+   68  cd ..
+   69  rails server
+   70  rails -v
+   71  ls -l
+   72  cd myapp/
+   73  ls -l
+   74  rails server
+   75  cd ..
+   76  gem install rails --no-ri --no-rdoc
+   77  rails -v
+   78  ruby -v
+   79  gem list
+   80  source ~/.rvm/scripts/rvm
+   81  rails -v
+   82  source /home/eoin/.rvm/scripts/rvm
+   83  gem list
+   84  ruby -v
+   85  rails -v
+   86  gem install rails --no-ri --no-rdoc
+   87  rails -v
+   88  source /home/eoin/.rvm/scripts/rvm
+   89  rails -v
+   90  cd /workspace/
+   91  ls -l
+   92  rails server
+   93  rails s --binding 0.0.0.0
+   94  cd ..
+   95  cd workspace/myapp/
+   96  ls -l
+   97  rails s --binding 0.0.0.0
+   98  bundle install
+   99  rails s --binding 0.0.0.0
+  100  rails server
+  101  top
+  102  source /home/eoin/.rvm/scripts/rvm
+  103  rails -v
+  104  top
+  105  source /home/eoin/.rvm/scripts/rvm
+  106  rails -v
+  107  ruby -v
+  108  cd work
+  109  ls -l
+  110  cd /
+  111  cd workspace/
+  112  ls -l
+  113  rails new medical_app
+  114  ls -l
+  115  top
+  116  cd /workspace/blo
+  117  cd /workspace/blog/
+  118  rails s
+  119  source /home/user/.rvm/scripts/rvm
+  120  source /home/Eoin/.rvm/scripts/rvm
+  121  source /home/eoin/.rvm/scripts/rvm
+  122  rails s
+  123  cd .
+  124  cd ..
+  125  cd medical_app/
+  126  rails s
+  127  cd /workspace/
+  128  rails new blog
+  129  source /home/eoin/.rvm/scripts/rvm
+  130  rails new blog
+  131  ls -l
+  132  cd blog
+  133  ls -l
+  134  rails server
+  135  rails generate controller welcome index
+  136  ls -l
+  137  cd config/
+  138  ls -l
+  139  vi routes.rb 
+  140  vim routes.rb 
+  141  sudo apt install vim
+  142  vim routes.rb 
+  143  vi routes.rb 
+  144  rake routes
+  145  ls -l
+  146  cd ..
+  147  rails generate controller articles
+  148  ls -l
+  149  cd app/controllers/
+  150  ls -l
+  151  vi articles_controller.rb 
+  152  cd ..
+  153  cd views/
+  154  ls -l
+  155  cd articles/
+  156  ls -l
+  157  touch new.html.erb
+  158  vi t
+  159  ls -l
+  160  vi new.html.erb 
+  161  ls -l
+  162  cd ..
+  163  cd articles/
+  164  vi new.html.erb 
+  165  cd ..
+  166  cd controllers/
+  167  ls -l
+  168  vi articles_controller.rb 
+  169  cd..
+  170  cd ..
+  171  rails generate model Article title:string text:text
+  172  ls -l
+  173  cd db
+  174  ls -l
+  175  cd migrate/
+  176  ls -l
+  177  vi 20170311101450_create_articles.rb 
+  178  rake db:migrate
+  179  cd ..
+  180  cd app/controllers/
+  181  ls -l
+  182  vi articles_controller.rb 
+  183  cd ..
+  184  ls -l
+  185  cd config/
+  186  vi routes.rb 
+  187  cd ..
+  188  ls -l
+  189  cd app/controllers/
+  190  vi articles_controller.rb 
+  191  cd ..
+  192  cd views/
+  193  ls -l
+  194  cd articles/
+  195  ls -l
+  196  touch show.html.erb
+  197  vi show.html.erb 
+  198  cd ..
+  199  ls -l
+  200  cd medical_app/
+  201  ls -l
+  202  rails generate scaffold Patient firstname:string lastname:string age:decimal complaint:string doctor_id:number
+  203  ls -l
+  204  cd app/
+  205  ls -l
+  206  cd controllers/
+  207  ls -l
+  208  vi patients_controller.rb 
+  209  cd ..
+  210  cd config/
+  211  ls -l
+  212  vi routes.rb 
+  213  cd ..
+  214  cd blog/
+  215  ls -l
+  216  cd config/
+  217  ls -l
+  218  vi routes.rb 
+  219  cd ..
+  220  cd medical_app/
+  221  rake db:migrate
+  222  rails generate scaffold Patient firstname:string lastname:string age:decimal complaint:string doctor_id:numeric
+  223  rails generate scaffold Patient firstname:string lastname:string age:decimal complaint:string doctor_id:numeric --force
+  224  rake db:migrate
+  225  ls -l
+  226  cd /workspace/
+  227  ls -l
+  228  rm medical_app/
+  229  rm -rf medical_app/
+  230  ls -l
+  231  rails new smartHealth
+  232  source /home/eoin/.rvm/scripts/rvm
+  233  rails new smartHealth
+  234  cd smartHealth/
+  235  rails server --binding 0.0.0.0
+  236  cd ..
+  237  cd smartHealth2
+  238  rails server --binding 0.0.0.0
+  239  rails scaffold Patient firstname:string lastname:string dob:date address:string phone:numeric injury:string observations:string
+  240  source /home/eoin/.rvm/scripts/rvm
+  241  rails scaffold Patient firstname:string lastname:string dob:date address:string phone:numeric injury:string observations:string
+  242  rails generate scaffold Patient firstname:string lastname:string dob:date address:string phone:numeric injury:string observations:string
+  243  rake db:migrate
+  244  rails generate model ServicesRequested request:string comments:string date:date patient:references
+  245  rails generate controller Requests index show new edit
+  246  rake db:migrate
+  247  rake routes
+  248  cd app/models/
+  249  ls -l
+  250  vi patient.rb 
+  251  cd ..
+  252  cd config/
+  253  ls -l
+  254  vi routes.rb 
+  255  rake routes
+  256  cd ..
+  257  rake routes
+  258  cd config/
+  259  ls -l
+  260  vi routes.rb 
+  261  cd .
+  262  cd ..
+  263  rake routes
+  264  cd config/
+  265  vi routes.rb 
+  266  cd ..
+  267  rake routes
+  268  cd app/controllers/
+  269  ls -l
+  270  vi requests_controller.rb 
+  271  cd ..
+  272  cd views/
+  273  ls -l
+  274  cd requests/
+  275  ls -l
+  276  vi index.html.erb 
+  277  vi show.html.erb 
+  278  vi index.html.erb 
+  279  vi show.html.erb 
+  280  vi new.html.erb 
+  281  vi edit.html.erb 
+  282  touch _form.html.erb
+  283  vi _form.html.erb 
+  284  cd ..
+  285  ls -l
+  286  cd patients/
+  287  ls -l
+  288  vi show.html.erb 
+  289  cd ..
+  290  pwd
+  291  cd app/views/patients/
+  292  ls -l
+  293  vi show.html.erb 
+  294  cd ..
+  295  cd patients/
+  296  vi show.html.erb 
+  297  rake routes
+  298  cd ..
+  299  rails new smartHealth2
+  300  rails generate scaffold Patient firstname:string lastname:string dob:date address:string phone:numeric injury:string observations:string doctor:string
+  301  cd smartHealth2
+  302  rails generate scaffold Patient firstname:string lastname:string dob:date address:string phone:numeric injury:string observations:string doctor:string
+  303  rails generate model Request request:string comments:string date:date patient:references
+  304  rake db:migrate
+  305  rails generate controller Requests index show new edit
+  306  rake db:migrate
+  307  rake routes
+  308  ls -l
+  309  git remote rm origin
+  310  ls
+  311  git init
+  312  git add .
+  313  git status
+  314  git commit -am "working commit"
+  315  git remote add origin git@github.com:e-sutton/SmartHealth.git
+  316  git push -u origin master
+  317  git remote add origin git@github.com:e-sutton/smartHealth2.git
+  318  git remote rm origin
+  319  git remote add origin git@github.com:e-sutton/smartHealth2.git
+  320  git push -u origin master
+  321  ping www.google.com
+  322  pint 8.8.8.8
+  323  ping 8.8.8.8
+  324  source /home/eoin/.rvm/scripts/rvm
+  325  cd /workspace/
+  326  ls -l
+  327  cd smartHealth2
+  328  rails server --binding 0.0.0.0
+  329  rails server
+  330  cd ..
+  331  cd smartHealth2
+  332  ls -l
+  333  pws
+  334  pwd
+  335  git init
+  336  sudo apt install git
+  337  git init
+  338  git add README.md
+  339  git commit -m "first commit"
+  340  git config --global user.email "eoin.sutton@live.com"
+  341  git config --global user.name "Eoin"
+  342  git commit -m "first commit"
+  343  git remote add origin git@github.com:e-sutton/SmartHealth.git
+  344  git push -u origin master
+  345  git config --global user.name "e-sutton"
+  346  git push -u origin master
+  347  git init
+  348  git status
+  349  git add .
+  350  git commit -am "first working commit"
+  351  git remote add origin git@github.com:e-sutton/SmartHealth.git
+  352  git remote rm origin
+  353  git remote add origin git@github.com:e-sutton/SmartHealth.git
+  354  git push -u origin master
+  355  ping 8.8.8.8
+  356  ssh user@snf-39851.vm.okeanos-global.grnet.gr
+  357  cd /workspace/
+  358  cd smartHealth2
+  359  git init
+  360  git add -A
+  361  git commit -m "first commit"
+  362  ls -l
+  363  git push
+  364  cd /workspace/
+  365  cd smartHealth2
+  366  git init
+  367  git status
+  368  git add .
+  369  git status
+  370  git commit -am "first"
+  371  git remote add origin git@github.com:e-sutton/smartHealth2.git
+  372  cd ..
+  373  rails new blog
+  374  source /home/user/.rvm/scripts/rvm
+  375  source /home/eoin/.rvm/scripts/rvm
+  376  rails new blog
+  377  bundle exec spring binstub --all
+  378  cd blog/
+  379  ls
+  380  rails generate controller welcome index
+  381  cd app/views/welcome/
+  382  ls -l
+  383  vi index.html.erb 
+  384  rails s
+  385  cd ..
+  386  cd .
+  387  cd ..
+  388  cd blog
+  389  ls -l
+  390  cd config/
+  391  ls -l
+  392  vi routes.rb 
+  393  rails s
+  394  cd ..
+  395  rails s
+  396  cd config/
+  397  vi routes.rb 
+  398  cd ..
+  399  rails s
+  400  git init
+  401  git add .
+  402  git commit -am "first"
+  403  git remote add origin git@github.com:e-sutton/smartHealth2.git
+  404  git push -u origin master
+  405  .git/config
+  406  source /home/eoin/.rvm/scripts/rvm
+  407  bundle install
+  408  rails generate devise install
+  409  rails generate devise:install
+  410  cd config/environments/
+  411  ls -l
+  412  vi development.rb 
+  413  cd ..
+  414  rails generate controller Home index
+  415  rake dv:migrate
+  416  rake db:migrate
+  417  cd config/
+  418  vi routes.rb 
+  419  cd ..
+  420  cd app/views/layouts/
+  421  vi application.html.erb 
+  422  cd ..
+  423  rails g devise user
+  424  rake db:migrtate
+  425  rake db:migrate
+  426  cd app/views/layouts/
+  427  vi application.html.erb 
+  428  cd ..
+  429  lsd -l
+  430  ls -l
+  431  cd app/controllers/
+  432  ls -l
+  433  vi patients_controller.rb 
+  434  vi r
+  435  ls -l
+  436  vi requests_controller.rb 
+  437  cd ..
+  438  rails generate scaffold profile firstname:string lastname:string address:string hospital:string user:references
+  439  rake db:migrate
+  440  cd app/models/
+  441  ls -l
+  442  vi user.rb 
+  443  vi profile.rb 
+  444  cd ..
+  445  cd controllers/
+  446  touch sessions_controller.rb
+  447  vi sessions_controller.rb 
+  448  vi application_controller.rb 
+  449  cd ..
+  450  cd config/
+  451  vi routes.rb 
+  452  cd ..
+  453  cd app/controllers/
+  454  ls -l
+  455  vi profiles_controller.rb 
+  456  cd ..
+  457  cd models/
+  458  ls -l
+  459  vi profile.rb 
+  460  vi user.rb 
+  461  cd ..
+  462  cd controllers/
+  463  ls -l
+  464  vi patients_controller.rb 
+  465  vi profiles_controller.rb 
+  466  cd ..
+  467  cd views/
+  468  ls -l
+  469  cd profiles/
+  470  ls -l
+  471  vi show.html.erb 
+  472  cd ..
+  473  cd patients/
+  474  ls -l
+  475  vi show.html.erb 
+  476  cd ..
+  477  cd profiles/
+  478  vi show.html.erb 
+  479  cd..
+  480  cd ..
+  481  cd patients/
+  482  ls -l
+  483  vi index.html.erb 
+  484  cd ..
+  485  cd..
+  486  cd ..
+  487  cd config/
+  488  vi routes.rb 
+  489  ls -l
+  490  vi application.rb 
+  491  cd ..
+  492  cd app
+  493  ls -l
+  494  cd controllers/
+  495  ls -l
+  496  vi patients_controller.rb 
+  497  vi profiles_controller.rb 
+  498  cd ..
+  499  git init
+  500  git add -A
+  501  git commit -m "added login and user profile"
+  502  git push
+  503  heroku login
+  504  git push heroku master
+  505  heroku run rake db:migrate
+  506  git push heroku master
+  507  heroku run rake db:migrate
+  508  git push heroku master
+  509  git add .
+  510  cd ..
+  511  mkdir herokutest
+  512  cd herokutest/
+  513  heroku git:clone -a stark-earth-75081
+  514  cd stark-earth-75081/
+  515  rails s
+  516  source /home/eoin/.rvm/scripts/rvm
+  517  rails s
+  518  bundle install
+  519  source /home/eoin/.rvm/scripts/rvm
+  520  bundle install
+  521  rake db:migrate:status
+  522  source /home/eoin/.rvm/scripts/rvm
+  523  rake db:migrate:status
+  524  pws
+  525  pwd
+  526  top
+  527  git init
+  528  git add .
+  529  git commit -m "working"
+  530  git push
+  531  heroku login
+  532  heroku create
+  533  git push heroku master
+  534  git init
+  535  git add .
+  536  git commit -m"new heroku"
+  537  git push heroku master
+  538  heroku apps: destroy --hidden-atol-24595
+  539  heroku apps: destroy --hidden-atoll-24595
+  540  heroku apps: destroy hidden-atoll-24595
+  541  heroku apps:destroy hidden-atoll-24595
+  542  heroku apps:destroy tranquil-atoll-61389
+  543  git init
+  544  git add -A
+  545  git commit -m"working"
+  546  git push
+  547  heroku create
+  548  git push heroku master
+  549  heroku run db:migrate
+  550  heroku run rake db:migrate
+  551  git push heroku master
+  552  heroku rake db:migrate:status
+  553  heroku rake:routes
+  554  git init
+  555  git add .
+  556  git commit -m"patient id test"
+  557  git push
+  558  git push heroku master
+  559  heroku run rake db:migrate
+  560  git push heroku master
+  561  heroku run rake routes
+  562  rails c
+  563  rails s
+  564  git init
+  565  git add .
+  566  git commit -m"testing"
+  567  git push
+  568  git push heroku master
+  569  heroku run rake db:migrate
+  570  git push heroku master
+  571  heroku ssh
+  572  heroku run ssh
+  573  heroku run ssh -L
+  574  heroku run rails c
+  575  git init
+  576  git add .
+  577  git commit -m "test2"
+  578  git push heroku master
+  579  heroku run rake db:migrate
+  580  git push heroku master
+  581  git add .
+  582  git commit -m "test3"
+  583  git push heroku master
+  584  git add .
+  585  git commit -m "test4"
+  586  git push heroku master
+  587  heroku run rake db:migrate
+  588  git push heroku master
+  589  git add .
+  590  git commit -m "test5"
+  591  git push heroku master
+  592  heroku db:push
+  593  heroku run db:push
+  594  heroku restart
+  595  heroku pg:push
+  596  heroku pg:pull
+  597  heroku db:pull
+  598  heroku pg:push mylocaldb HEROKU_POSTGRESQL_MAGENTA --app still-mountain-46357
+  599  heroku pg:reset DATABASE
+  600  heroku run rake db:migrate
+  601  git init
+  602  git add .
+  603  git commit -m "last test"
+  604  git push
+  605  git push heroku master
+  606  gem install bundler
+  607  git init
+  608  git add .
+  609  git commit -m "testagain"
+  610  git push heroku master
+  611  heroku run rake db:migrate
+  612  pwd
+  613  bundle update
+  614  heroku run rake db:migrate
+  615  heroku run rake db:schema:load
+  616  heroku run rake db:schema:load --DISABLE_DATABASE_ENVIRONMENT_CHECK=1
+  617  heroku run rake db:schema:load DISABLE_DATABASE_ENVIRONMENT_CHECK=1
+  618  git init
+  619  git add .
+  620  git commit -am"test of error fix"
+  621  git push heroku master
+  622  heroku open
+  623  heroku run rake db:migrate
+  624  heroku run rake db:schema:load DISABLE_DATABASE_ENVIRONMENT_CHECK=1
+  625  ls -l
+  626  vi Gemfile
+  627  cd config/
+  628  ls -l
+  629  cd ..
+  630  git init
+  631  git add .
+  632  git commit -m"try"
+  633  git push origin:master
+  634  git push
+  635  git init
+  636  git add .
+  637  git remote add origin https://github.com/e-sutton/smartHealth3.git
+  638  git push -u origin master
+  639  cd /workspace/
+  640  cd smartHealth2
+  641  ls -l
+  642  git init
+  643  git add .
+  644  git commit -am "initial commit"
+  645  git remote add origin https://github.com/e-sutton/smartHealth2.git
+  646  git remote rm origin
+  647  git remote add origin https://github.com/e-sutton/smartHealth2.git
+  648  git push -u origin master
+  649  sudo add-apt-repository "deb https://cli-assets.heroku.com/branches/stable/apt ./"
+  650  curl -L https://cli-assets.heroku.com/apt/release.key | sudo apt-key add -
+  651  sudo apt-get update
+  652  sudo apt-get install heroku
+  653  brew install heroku-toolbelt
+  654  sudo apt install linuxbrew-wrapper
+  655  brew install heroku-toolbelt
+  656  heroku login
+  657  heroku create
+  658  git push heroku master
+  659  vi Gemfile
+  660  bundle --without production
+  661  sudo apt install ruby-bundler
+  662  bundle --without production
+  663  gem install nio4r
+  664  bundle --without production
+  665  export DISABLE_SPRING=1
+  666  bundle --without production
+  667  gem install nio4r -v '2.0.0'
+  668  source /home/eoin/.rvm/scripts/rvm
+  669  bundle --without production
+  670  git commit -am "Added for Heroku"
+  671  git push origin master
+  672  git push heroku master
+  673  heroku run rake db:migrate
+  674  git push heroku master
+  675  vi Gemfile
+  676  rails s
+  677  heroku apps:destroy stark-earth-75081
+  678  heroku create
+  679  git push heroku master
+  680  heroku run rake db:migrate
+  681  git push heroku master
+  682  ls -l
+  683  vi Gemfile
+  684  git push heroku master
+  685  bundle --without production
+  686  git push heroku master
+  687  heroku run rake db:migrate
+  688  git push heroku master
+  689  heroku run rails console
+  690  git init
+  691  git add .
+  692  git commit -m "bug fix"
+  693  git push
+  694  git push heroku master
+  695  heroku run rake db:migrate
+  696  git push heroku master
+  697  heroku run rails console
+  698  heroku restart
+  699  rake db:migrate
+  700  heroku restart
+  701  heroku run rake db:migrate:status --app hidden-atoll-24595
+  702  heroku restart
+  703  heroku pg:psql -a hidden-atoll-24595 \d users
+  704  heroku pg:psql -a hidden-atoll-24595
+  705  heroku pg:psql -a hidden-atoll-24595 \d user
+  706  heroku pg:psql -a hidden-atoll-24595
+  707  heroku db:push
+  708  rake db:migrate:status
+  709  rails s
+  710  cd ..
+  711  rails s
+  712  source /home/eoin/.rvm/scripts/rvm
+  713  rails s
+  714  cd /workspace/
+  715  ls -l
+  716  cd smartHealth2
+  717  git init
+  718  cd ..
+  719  mkdir smartHealth3
+  720  cp smartHealth2 smartHealth3
+  721  cp -a /smartHealth2/. /smartHealth3/
+  722  ls -l
+  723  cp -a /smartHealth2/. /smartHealth3/
+  724  cp -a smartHealth2/. smartHealth3/
+  725  cd smartHealth3
+  726  ls -l
+  727  git init
+  728  git status
+  729  git add .
+  730  git commit -am "initial commit"
+  731  git remote add origin https://github.com/e-sutton/smartHealth3.git
+  732  git remote add origin2 https://github.com/e-sutton/smartHealth3.git
+  733  git push -u origin2 master
+  734  git pull
+  735  heroku login
+  736  heroku create
+  737  git push heroku master
+  738  heroku run rake db:migrate
+  739  git push heroku master
+  740  heroku open
+  741  heroku apps:destroy https://still-mountain-46357.herokuapp.com/
+  742  heroku apps:destroy --https://still-mountain-46357.herokuapp.com/
+  743  heroku apps:destroy --app https://still-mountain-46357.herokuapp.com/
+  744  git push heroku master
+  745  git remote rm heroku
+  746  heroku git:remote - a https://frozen-taiga-44021.herokuapp.com/
+  747  git remote rm origin
+  748  git init
+  749  git add .
+  750  git commit -m"try2"
+  751  git push heroku master
+  752  heroku login
+  753  git push heroku master
+  754  git push origin master
+  755  git push -u origin master
+  756  git remote add origin https://github.com/e-sutton/smartHealth3.git
+  757  git push -u origin master
+  758  git push heroku master
+  759  source /home/eoin/.rvm/scripts/rvm
+  760  git push heroku master
+  761  heroku git:remote -a frozen-taiga-44021
+  762  Open app More 
+  763  git push heroku master
+  764  heroku run rake db:migrate
+  765  heroku open
+  766  heroku run rake db:schema:load
+  767  heroku run rake db:schema:load DISABLE_DATABASE_ENVIRONMENT_CHECK=1
+  768  heroku open
+  769  rails s
+  770  cd ..
+  771  cd smartHealth3
+  772  ls -l
+  773  cd app
+  774  ls -l
+  775  cd assets/
+  776  ls -l
+  777  cd ..
+  778  ls -l
+  779  cd app
+  780  ls -l
+  781  cd models/
+  782  ls -l
+  783  vi patient.rb 
+  784  cd ..
+  785  cd controllers/
+  786  ls -l
+  787  vi patients_controller.rb 
+  788  cd ..
+  789  cd viq
+  790  cd views/
+  791  ls -l
+  792  cd patients/
+  793  ls -l
+  794  vi index.html.erb 
+  795  cd ..
+  796  rails s
+  797  cd app
+  798  ls -l
+  799  cd models 
+  800  cd ..
+  801  vi Gemfile
+  802  cd app/views/
+  803  ls -l
+  804  cd layouts/
+  805  ls -l
+  806  vi application.html.erb 
+  807  cd ..
+  808  cd patients/
+  809  ls -l
+  810  vi index.html.erb 
+  811  cd ..
+  812  rails 
+  813  rails s
+  814  cd /workspace/
+  815  cd smartHealth3
+  816  rails s
+  817  source /home/eoin/.rvm/scripts/rvm
+  818  rails s
+  819  source /home/eoin/.rvm/scripts/rvm
+  820  rake db:purge
+  821  rake db:migrate
+  822  rails console
+  823  ls -l
+  824  cd app
+  825  ls -l
+  826  cd ..
+  827  mkdir smartHealthOLD
+  828  cp -R smartHealth3 smartHealthOLD/
+  829  cd smartHealth3
+  830  ls 0l
+  831  ls -l
+  832  cd ..
+  833  cd smartHealthOLD/
+  834  ls -l
+  835  cd smartHealth3/
+  836  ls -l
+  837  cd ..
+  838  cd smartHealth3
+  839  rails generate scaffold Prescription firstname:string lastname:string cost:decimal doctorname:string medicine:string dose:string description:string patient:references
+  840  rake db:migrate
+  841  rails console
+  842  rake db:migrate
+  843  rails console
+  844  git init
+  845  git add .
+  846  git commit -m "added styling and prescriptions functionality, including decorator pattern"
+  847  git push
+  848  heroku login
+  849  git push heroku master
+  850  heroku run rake rb:migrate
+  851  heroku run rake db:migrate
+  852  git push heroku master
+  853  heroku open
+  854  source /home/eoin/.rvm/scripts/rvm
+  855  rails s
+  856  rails console
+  857  source /home/eoin/.rvm/scripts/rvm
+  858  rails console
+  859  git init
+  860  git add .
+  861  git comment -m"fix?"
+  862  git commit -m"fix?"
+  863  git push
+  864  git push heroku master
+  865  heroku run rake db:migrate
+  866  git push heroku master
+  867  heroku open
+  868  heroku restart
+  869  git init
+  870  git add .
+  871  git commit -m""
+  872  git commit -m"try fix"
+  873  git push
+  874  git push heroku master
+  875  heroku run rake db:migrate
+  876  heroku pg:reset DATABASE
+  877  heroku run rake db:migrate
+  878  rails console
+  879  rails db
+  880  cd /workspace/smartHealth3
+  881  rails console
+  882  source /home/eoin/.rvm/scripts/rvm
+  883  rails console
+  884  history
+  885  history >> history.txt
