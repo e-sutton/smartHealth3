@@ -1,11 +1,13 @@
 class PatientsController < ApplicationController
   before_filter :authenticate_user!
   before_action :set_patient, only: [:show, :edit, :update, :destroy]
+  helper_method :sort_column, :sort_direction
 
   # GET /patients
   # GET /patients.json
   def index
     @patients = Patient.all
+    @patients = Patient.order(sort_column + " " + sort_direction)
     
     if params[:search]
     @patients = Patient.search(params[:search])
@@ -13,6 +15,14 @@ class PatientsController < ApplicationController
     else
     @patients = @patients.order("lastname DESC")
     end
+  end
+
+  def sort_column
+    Patient.column_names.include?(params[:sort]) ? params[:sort] : "id"
+  end
+  
+  def sort_direction
+    %w[asc desc].include?(params[:direction]) ? params[:direction] : "asc"
   end
 
   # GET /patients/1
@@ -27,6 +37,10 @@ class PatientsController < ApplicationController
 
   # GET /patients/1/edit
   def edit
+  end
+
+  def report
+  @patients = Patient.all
   end
 
   # POST /patients

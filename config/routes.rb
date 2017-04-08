@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   root:to => 'home#index'
   get 'home/index'
   get 'signedinuserprofile' => 'profiles#signedinuserprofile'
+  get '/report' => 'patients#report'
 
   devise_for :installs
   get 'requests/index'
